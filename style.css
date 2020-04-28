@@ -4,14 +4,33 @@
 
 }
 
+body{
+  background-image:url('/images/cartoonspace.gif');
+  background-size: 1600px 1500px;
+  background-repeat: no-repeat;
+}
+
 #header{
-  background-color: #911cff;
+  background-image:url('/images/stars.gif');
   color:#8aff1c;
 }
 
 #header h1{
-  font-size: 35px;
+  font-size: 40px;
   font-family:'Space Mono', monospace;
   text-align: center;
-  padding: 20px;
+  text-shadow: rgb(15, 14, 14) 0 0 10px;
+  padding: 10px;
 }
+
+.container{
+  border-radius: 10px;
+  margin-top: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4f4f4;
+  width:65%;
+  height:1125px;
+  text-align: center;
+}
+
