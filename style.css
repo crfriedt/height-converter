@@ -1,0 +1,17 @@
+*{
+  margin:0;
+  padding: 0;
+
+}
+
+#header{
+  background-color: #911cff;
+  color:#8aff1c;
+}
+
+#header h1{
+  font-size: 35px;
+  font-family:'Space Mono', monospace;
+  text-align: center;
+  padding: 20px;
+}
