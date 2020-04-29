@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding: 0;
+  font-family:'Space Mono', monospace;
 
 }
 
@@ -17,7 +18,6 @@ body{
 
 #header h1{
   font-size: 40px;
-  font-family:'Space Mono', monospace;
   text-align: center;
   text-shadow: rgb(15, 14, 14) 0 0 10px;
   padding: 10px;
@@ -30,7 +30,7 @@ body{
   margin-right: auto;
   background-color: #f4f4f4;
   width:65%;
-  height:1125px;
+  height:300px;
   text-align: center;
 }
 
