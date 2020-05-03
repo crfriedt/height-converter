@@ -30,7 +30,28 @@ body{
   margin-right: auto;
   background-color: #f4f4f4;
   width:65%;
-  height:300px;
+  height:320px;
   text-align: center;
 }
 
+fieldset{
+  font-size: 40px;;
+}
+
+input{
+  font-size: 20px;
+}
+
+.or{
+  font-size: 20px;
+}
+
+.calculateBtn{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.clearBtn{
+  margin-top: 10px;
+  font-size: 20px;
+}
