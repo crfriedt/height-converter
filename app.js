@@ -47,11 +47,8 @@ function calculateFeetToCm(){
 function caclulateCmToFeet(){
   loadingGif.src = '';
   let cmToInches = parseInt(cenimetersInput.value) / 2.54;
-  console.log(cmToInches);
   let cmToFeet = cmToInches / 12;
-  console.log(Math.floor(cmToFeet));
   let findInches = cmToInches - 12 * Math.floor(cmToFeet);
-  console.log(findInches);
   resultsArea.innerHTML = Math.floor(cmToFeet) + ' feet and ' + findInches + ' inches';
 
 }
