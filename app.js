@@ -8,6 +8,8 @@ const feetInput = document.getElementById('feet'),
       loadingGif = document.getElementById('loading');
 
 // Event handlers
+
+// Clear button
 clearBtn.addEventListener('click', function(e){
   feetInput.value = '';
   inchesInput.value = '';
@@ -17,6 +19,7 @@ clearBtn.addEventListener('click', function(e){
   e.preventDefault();
 });
 
+// Calculate button
 calculateBtn.addEventListener('click', function(e){
   if (feetInput.value !== '' && inchesInput.value !== ''){
     loadingGif.src = 'images/loading.gif';
@@ -25,14 +28,11 @@ calculateBtn.addEventListener('click', function(e){
   } else if (cenimetersInput.value !== '' && feetInput.value === '' && inchesInput.value === ''){
     loadingGif.src = 'images/loading.gif';
     setTimeout(caclulateCmToFeet, 1500);
-
   }
-
-
   e.preventDefault();
 });
 
-// Calculate results
+// Feet to cm formula
 function calculateFeetToCm(){
   loadingGif.src = '';
   let ft = parseInt(feetInput.value);
@@ -44,6 +44,7 @@ function calculateFeetToCm(){
 
 };
 
+// Cenimeter to feet formula
 function caclulateCmToFeet(){
   loadingGif.src = '';
   let cmToInches = parseInt(cenimetersInput.value) / 2.54;
