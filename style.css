@@ -30,7 +30,7 @@ body{
   margin-right: auto;
   background-color: #f4f4f4;
   width:65%;
-  height:500px;
+  height:600px;
   text-align: center;
 }
 
@@ -62,4 +62,9 @@ input{
   margin-bottom: 20px;
   font-size: 20px;
   width: 120px;
+}
+
+.results{
+  margin-top: 10px;
+  font-size: 25px;
 }
